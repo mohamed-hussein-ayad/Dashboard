@@ -1,0 +1,35 @@
+/* General Styling */
+body {
+  background-color: #f8f9fa;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+  height: 100vh;
+}
+
+#sidebar-wrapper ul li a {
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+#sidebar-wrapper ul li:hover {
+  background-color: #495057;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Navbar */
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.25rem;
+}
